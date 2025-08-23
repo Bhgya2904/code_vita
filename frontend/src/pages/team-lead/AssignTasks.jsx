@@ -27,7 +27,7 @@ import {
   Search
 } from 'lucide-react';
 import { mockUsers } from '../../data/mockData';
-import { toast } from '../../components/ui/use-toast';
+import { toast } from '../../hooks/use-toast';
 
 const TeamLeadAssignTasks = () => {
   const dispatch = useDispatch();
