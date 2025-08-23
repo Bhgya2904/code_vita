@@ -28,7 +28,7 @@ import {
   CheckCircle2
 } from 'lucide-react';
 import { mockUsers, mockTasks } from '../../data/mockData';
-import { toast } from '../../components/ui/use-toast';
+import { toast } from '../../hooks/use-toast';
 
 const AdminProjects = () => {
   const dispatch = useDispatch();
